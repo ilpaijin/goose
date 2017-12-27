@@ -40,6 +40,11 @@ func SetDialect(d string) error {
 	return nil
 }
 
+// SetCustomDialect sets a customized SQLDialect
+func SetCustomDialect(d SQLDialect) {
+	dialect = d;
+}
+
 ////////////////////////////
 // Postgres
 ////////////////////////////

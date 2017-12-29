@@ -41,7 +41,7 @@ func SetDialect(d string) error {
 }
 
 // SetCustomDialect sets a customized SQLDialect
-func SetCustomDialect(d SQLDialect) error {
+func SetCustomDialect(d SQLDialect) {
 	dialect = d;
 }
 
